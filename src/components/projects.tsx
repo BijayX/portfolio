@@ -35,7 +35,8 @@ export const Projects = ({ starsCount }: TProps) => {
             key={project.title}
             project={project}
             index={index}
-            starsCount={starsCount}/>
+            starsCount={starsCount}
+          />
         ))}
       </div>
     </section>
