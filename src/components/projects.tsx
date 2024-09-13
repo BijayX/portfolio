@@ -12,7 +12,6 @@ type TProps = {
 
 export const Projects = ({ starsCount }: TProps) => {
   const { ref } = useSectionInView('Projects');
-
   return (
     <section ref={ref} id="projects" className="my-10 scroll-mt-28">
       <motion.div
@@ -36,8 +35,7 @@ export const Projects = ({ starsCount }: TProps) => {
             key={project.title}
             project={project}
             index={index}
-            starsCount={starsCount}
-          />
+            starsCount={starsCount}/>
         ))}
       </div>
     </section>

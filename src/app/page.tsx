@@ -19,15 +19,15 @@ const Home = async () => {
   return (
     <>
       <div className="container flex flex-col items-center">
-        <Header />
-        <Intro />
-        <SectionDivider />
-        <About />
-        <Projects starsCount={starsCount} />
-        <ProProjects starsCount={starsCount} />
-        <Experience />
-        <Contact />
-        <Footer />
+        <Header/>
+        <Intro/>
+        <SectionDivider/>
+        <About/>
+        <Projects starsCount={starsCount}/>
+        <ProProjects starsCount={starsCount}/>
+        <Experience/>
+        <Contact/>
+        <Footer/>
       </div>
     </>
   );
