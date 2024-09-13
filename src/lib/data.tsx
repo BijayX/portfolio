@@ -76,7 +76,7 @@ export const projectsData = [
   },
 ] as const;
 
-export const  profesprojects = [
+export const profesprojects = [
   {
     image: '/projects/T.svg',
     title: 'Medi-Market',

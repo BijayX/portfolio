@@ -1,8 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import Link from 'next/link';
-
+import { motion } from 'framer-motion';
 import { Button } from '@/components/button';
 import { Icons } from '@/components/icons';
 import { useSectionInView } from '@/hooks/use-section-in-view';
@@ -34,7 +33,7 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         className="text-3xl font-bold leading-tight tracking-tighter sm:text-4xl"
       >
-         Full Stack Developer passionate about creating web apps.
+        Full Stack Developer passionate about creating web apps.
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 100 }}
@@ -44,8 +43,9 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-lg"
       >
-        Hello, I&apos;m Bijay Kumar Shrestha. I am full Stack developer from Nepal. I enjoy
-        building Webapps. My focus on Learning new things and Technologies.
+        Hello, I&apos;m Bijay Kumar Shrestha. I am full Stack developer from
+        Nepal. I enjoy building Webapps. My focus on Learning new things and
+        Technologies.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
@@ -74,7 +74,6 @@ export const Intro = () => {
           <a
             href="https://www.linkedin.com/in/bijay-shrestha-b26477245"
             aria-label="Linkedin"
-            download
           >
             <Icons.linkedin className="size-6" />
           </a>

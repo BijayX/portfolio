@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
 import { Project } from '@/components/project';
 import { SectionHeading } from '@/components/section-heading';
 import { useSectionInView } from '@/hooks/use-section-in-view';
@@ -29,10 +28,7 @@ export const Projects = ({ starsCount }: TProps) => {
           once: true,
         }}
       >
-        <SectionHeading
-          heading="My Projects"
-          content="Projects I worked on."
-        />
+        <SectionHeading heading="My Projects" content="Projects I worked on." />
       </motion.div>
       <div className="flex flex-col gap-8 md:flex-row">
         {projectsData.map((project, index) => (
