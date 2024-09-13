@@ -2,13 +2,11 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-
 import { Button } from '@/components/button';
 import { Icons } from '@/components/icons';
 import { profesprojects } from '@/lib/data';
 
 type TProject = (typeof profesprojects)[number];
-
 type TProps = {
   project: TProject;
   index: number;

@@ -1,7 +1,8 @@
 'use client';
 
-import Link from 'next/link';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
+
 import { Button } from '@/components/button';
 import { Icons } from '@/components/icons';
 import { useSectionInView } from '@/hooks/use-section-in-view';

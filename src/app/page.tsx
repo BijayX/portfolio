@@ -8,7 +8,6 @@ import { Projects } from '@/components/projects';
 import { ProProjects } from '@/components/proprojects';
 import { SectionDivider } from '@/components/section-divider';
 import { projectsData } from '@/lib/data';
-
 const Home = async () => {
   const starsCount = await Promise.all(
     projectsData.map(async ({ links }) => {
@@ -17,7 +16,6 @@ const Home = async () => {
       return data.stargazers_count;
     })
   );
-
   return (
     <>
       <div className="container flex flex-col items-center">
@@ -31,7 +29,6 @@ const Home = async () => {
         <Contact />
         <Footer />
       </div>
-    
     </>
   );
 };

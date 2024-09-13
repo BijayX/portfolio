@@ -20,20 +20,19 @@ export const About = () => {
     >
       <SectionHeading heading="About Me" />
       <div className="-mt-5 max-w-2xl text-center leading-7">
-      <p className="mb-4">
-          I&apos;m Bijay Kumar Shrestha, a passionate software developer from Nepal.
-          I have developed a strong affinity for both front-end and back-end development.
-          I thrive on the problem-solving aspect of programming, relishing the satisfaction that comes with
-          finding solutions to complex challenges.
-          I&apos;ve had
-          the opportunity to work on several exciting projects during my
-          learning journey, ranging from personal projects to collaborative
-          ventures.  My technical skills encompass a wide range of programming languages and frameworks and technologies, including
-          Front-end Technologies: React, Next.js, Bootstrap, Tailwind CSS, JavaScript.
-          Back-end Technologies: Node.js, PHP, Laravel.
-          Databases: MySQL, NoSQL.
-          Programming Languages: Python I am always looking.
-          to learn new technologies.
+        <p className="mb-4">
+          I&apos;m Bijay Kumar Shrestha, a passionate software developer from
+          Nepal. I have developed a strong affinity for both front-end and
+          back-end development. I thrive on the problem-solving aspect of
+          programming, relishing the satisfaction that comes with finding
+          solutions to complex challenges. I&apos;ve had the opportunity to work
+          on several exciting projects during my learning journey, ranging from
+          personal projects to collaborative ventures. My technical skills
+          encompass a wide range of programming languages and frameworks and
+          technologies, including Front-end Technologies: React, Next.js,
+          Bootstrap, Tailwind CSS, JavaScript. Back-end Technologies: Node.js,
+          PHP, Laravel. Databases: MySQL, NoSQL. Programming Languages: Python I
+          am always looking. to learn new technologies.
         </p>
         <p>
           I&apos;m open to Job opportunities where I can contribute, learn and

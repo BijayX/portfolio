@@ -27,9 +27,17 @@ export const projectsData = [
   {
     image: '/projects/chart-donut.svg',
     title: 'AI-Driven Personal Finance Advisor',
-    description:
-      'Next-generation Personal Finance Tracker & Advisor.',
-    technologies: ['Next.js', 'JavaScript', 'TypeScript', 'Gemini API', 'Shadcn/ui', 'Tailwind', 'Neon', 'Clerk'],
+    description: 'Next-generation Personal Finance Tracker & Advisor.',
+    technologies: [
+      'Next.js',
+      'JavaScript',
+      'TypeScript',
+      'Gemini API',
+      'Shadcn/ui',
+      'Tailwind',
+      'Neon',
+      'Clerk',
+    ],
     links: {
       preview: 'https://fin-smarts.vercel.app/',
       github: 'https://github.com/BijayX/FinSmarts',
@@ -48,7 +56,7 @@ export const projectsData = [
       'Node js ',
       'Express Js',
       'Jwt Auth',
-      'Khati Payment'
+      'Khati Payment',
     ],
     links: {
       preview: 'https://digital-food-livid.vercel.app/',
@@ -59,15 +67,9 @@ export const projectsData = [
   {
     image: '/projects/T.svg',
     title: 'TaskTrack Pro',
-    description: 'Designed to streamline task tracking and enhance productivity for teams and individuals.',
-    technologies: [
-      'Laravel',
-      'Boostrap',
-      'JavaScript',
-      'HTML',
-      'PHP',
-      'CSS'
-    ],
+    description:
+      'Designed to streamline task tracking and enhance productivity for teams and individuals.',
+    technologies: ['Laravel', 'Boostrap', 'JavaScript', 'HTML', 'PHP', 'CSS'],
     links: {
       preview: 'https://github.com/BijayX/client-management-system-development',
       github: 'https://github.com/BijayX/client-management-system-development',
@@ -80,9 +82,15 @@ export const profesprojects = [
   {
     image: '/projects/T.svg',
     title: 'Medi-Market',
-    description:
-      'Market Store to Sell Medcine',
-    technologies: ['Laravel', 'JavaScript', 'JQuery', 'Boostrap', 'HTML', 'CSS'],
+    description: 'Market Store to Sell Medcine',
+    technologies: [
+      'Laravel',
+      'JavaScript',
+      'JQuery',
+      'Boostrap',
+      'HTML',
+      'CSS',
+    ],
     links: {
       preview: 'https://medi-market.com.au/',
       github: '#',
@@ -99,7 +107,7 @@ export const profesprojects = [
       'JavaScript',
       'Boostrap',
       'JQuery',
-      'Khati Payment'
+      'Khati Payment',
     ],
     links: {
       preview: 'https://uch.edu.np/',
@@ -118,7 +126,7 @@ export const profesprojects = [
       'HTML',
       'PHP',
       'CSS',
-      'Vite'
+      'Vite',
     ],
     links: {
       preview: '#',
