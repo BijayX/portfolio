@@ -31,21 +31,14 @@ export const About = () => {
           I've had the opportunity to work on several exciting projects during
           my learning journey, ranging from personal projects to collaborative
           ventures. My technical skills encompass a wide range of programming
-          languages, frameworks, and technologies, including:
-        </p>
-        <ul className="mb-4 list-inside list-disc text-left">
-          <li>
-            Front-end Technologies: React, Next.js, Bootstrap, Tailwind CSS,
-            JavaScript
-          </li>
-          <li>Back-end Technologies: Node.js, PHP, Laravel</li>
-          <li>Databases: MySQL, NoSQL</li>
-          <li>Programming Languages: Python</li>
-        </ul>
-        <p className="mb-4">
-          I am always looking to learn new technologies and expand my skill set.
+          languages, frameworks, and technologies, including front-end
+          technologies like React, Next.js, Bootstrap, Tailwind CSS, and
+          JavaScript, as well as back-end technologies like Node.js, PHP, and
+          Laravel. I also have experience with databases such as MySQL and
+          NoSQL, and I am proficient in Python.
         </p>
         <p>
+          I am always looking to learn new technologies and expand my skill set.
           I'm open to job opportunities where I can contribute, learn, and grow.
           If you have a good opportunity that matches my skills and experience,
           don't hesitate to contact me.
