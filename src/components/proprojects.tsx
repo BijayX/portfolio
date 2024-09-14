@@ -1,7 +1,9 @@
 'use client';
 
 import { motion } from 'framer-motion';
+
 import { ProjectPro } from './profesprojects';
+
 import { SectionHeading } from '@/components/section-heading';
 import { useSectionInView } from '@/hooks/use-section-in-view';
 import { profesprojects } from '@/lib/data';

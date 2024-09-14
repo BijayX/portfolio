@@ -2,11 +2,13 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+
 import { Button } from '@/components/button';
 import { Icons } from '@/components/icons';
 import { profesprojects } from '@/lib/data';
 
 type TProject = (typeof profesprojects)[number];
+
 type TProps = {
   project: TProject;
   index: number;
@@ -47,7 +49,7 @@ export const ProjectPro = ({ project, index, starsCount }: TProps) => {
       <h3 className="my-2 text-lg font-medium">{title}</h3>
       <p className="text-muted-foreground">{description}</p>
       <div className="my-3 flex flex-wrap justify-center gap-2">
-        {technologies.map(tech => (
+        {technologies.map((tech) => (
           <span className="bg-muted rounded-full px-3 py-1 text-sm" key={tech}>
             {tech}
           </span>

@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+
 import { SectionHeading } from '@/components/section-heading';
 import { Skills } from '@/components/skills';
 import { useSectionInView } from '@/hooks/use-section-in-view';
@@ -32,7 +33,7 @@ export const About = () => {
           ventures. My technical skills encompass a wide range of programming
           languages, frameworks, and technologies, including:
         </p>
-        <ul className="mb-4 list-disc list-inside text-left">
+        <ul className="mb-4 list-inside list-disc text-left">
           <li>
             Front-end Technologies: React, Next.js, Bootstrap, Tailwind CSS,
             JavaScript
