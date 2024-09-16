@@ -35,7 +35,7 @@ export const About = () => {
           technologies like React, Next.js, Bootstrap, Tailwind CSS, and
           JavaScript, as well as back-end technologies like Node.js, PHP, and
           Laravel. I also have experience with databases such as MySQL and
-          NoSQL, and I am proficient in Python.
+          NoSQL.
         </p>
         <p>
           I am always looking to learn new technologies and expand my skill set.
