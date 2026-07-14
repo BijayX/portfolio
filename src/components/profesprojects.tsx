@@ -61,7 +61,7 @@ export const ProjectPro = ({ project, index }: TProps) => {
         ))}
       </div>
       <div className="mt-auto flex pt-2">
-        {links.preview !== '#' && (
+        {(links.preview as string) !== '#' && (
           <Button variant="outline" asChild className="px-5">
             <a
               href={links.preview}
@@ -74,7 +74,7 @@ export const ProjectPro = ({ project, index }: TProps) => {
             </a>
           </Button>
         )}
-        {links.github !== '#' && (
+        {(links.github as string) !== '#' && (
           <Button variant="outline" asChild className="ml-2 px-5">
             <a href={links.github} aria-label="github">
               <Icons.githubOutline className="size-5" />
