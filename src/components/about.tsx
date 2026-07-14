@@ -21,27 +21,22 @@ export const About = () => {
       <SectionHeading heading="About Me" />
       <div className="-mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4">
-          I'm Bijay Kumar Shrestha, a passionate software developer from Nepal.
-          I have developed a strong affinity for both front-end and back-end
-          development. I thrive on the problem-solving aspect of programming,
-          relishing the satisfaction that comes with finding solutions to
-          complex challenges.
+          I'm Bijay Kumar Shrestha, a full stack developer from Kathmandu,
+          Nepal, with a Bachelor's degree in Information Technology. I work
+          across the entire stack &mdash; building responsive front-ends,
+          designing RESTful APIs, and modeling databases &mdash; with a strong
+          focus on writing clean, maintainable code.
         </p>
         <p className="mb-4">
-          I've had the opportunity to work on several exciting projects during
-          my learning journey, ranging from personal projects to collaborative
-          ventures. My technical skills encompass a wide range of programming
-          languages, frameworks, and technologies, including front-end
-          technologies like React, Next.js, Bootstrap, Tailwind CSS, and
-          JavaScript, as well as back-end technologies like Node.js, PHP, and
-          Laravel. I also have experience with databases such as MySQL and
-          NoSQL.
+          I currently work as a software developer at Uno Technology, where I
+          build and maintain production web applications. My core stack
+          includes React, Next.js, Node.js, Laravel, and PHP, backed by MySQL
+          and PostgreSQL.
         </p>
         <p>
-          I am always looking to learn new technologies and expand my skill set.
-          I'm open to job opportunities where I can contribute, learn, and grow.
-          If you have a good opportunity that matches my skills and experience,
-          don't hesitate to contact me.
+          Whether you're a company looking for a dependable developer or a
+          client with a product idea, I bring end-to-end execution &mdash; from
+          first mockup to deployed application. Let's build something together.
         </p>
       </div>
       <Skills />

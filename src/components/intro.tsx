@@ -23,18 +23,21 @@ export const Intro = () => {
           type: 'tween',
           duration: 0.2,
         }}
-        href="https://github.com/BijayX"
-        className="bg-muted rounded px-3 py-1 text-sm font-medium"
+        href="#contact"
+        className="bg-muted flex items-center gap-2 rounded-full px-4 py-1.5 text-sm font-medium"
       >
-        🎉
-        <span className="ml-3">Check out my new project</span>
+        <span className="relative flex size-2">
+          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
+          <span className="relative inline-flex size-2 rounded-full bg-green-500" />
+        </span>
+        Available for work &amp; freelance projects
       </motion.a>
       <motion.h1
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         className="text-3xl font-bold leading-tight tracking-tighter sm:text-4xl"
       >
-        Full Stack Developer passionate about creating web apps.
+        Full Stack Developer crafting fast, scalable web applications.
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 100 }}
@@ -44,9 +47,10 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-lg"
       >
-        Hello, I&apos;m Bijay Kumar Shrestha. I am full Stack developer from
-        Nepal. I enjoy building Webapps. My focus on Learning new things and
-        Technologies.
+        Hi, I&apos;m Bijay Kumar Shrestha &mdash; a full stack developer based
+        in Kathmandu, Nepal. I specialize in building production-ready web
+        applications with React, Next.js, Laravel, and Node.js, from responsive
+        interfaces to secure APIs and payment integrations.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}

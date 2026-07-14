@@ -8,15 +8,11 @@ import { SectionHeading } from '@/components/section-heading';
 import { useSectionInView } from '@/hooks/use-section-in-view';
 import { profesprojects } from '@/lib/data';
 
-type TProps = {
-  starsCount: number[];
-};
-
-export const ProProjects = ({ starsCount }: TProps) => {
+export const ProProjects = () => {
   const { ref } = useSectionInView('Projects');
 
   return (
-    <section ref={ref} id="projects" className="my-10 scroll-mt-28">
+    <section ref={ref} className="my-10 scroll-mt-28">
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         whileInView={{
@@ -32,17 +28,12 @@ export const ProProjects = ({ starsCount }: TProps) => {
       >
         <SectionHeading
           heading="Professional Projects"
-          content="Projects I worked on collobration with Teams."
+          content="Production applications I've built and shipped for real clients as part of a team."
         />
       </motion.div>
-      <div className="flex flex-col gap-8 md:flex-row">
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
         {profesprojects.map((project, index) => (
-          <ProjectPro
-            key={project.title}
-            project={project}
-            index={index}
-            starsCount={starsCount}
-          />
+          <ProjectPro key={project.title} project={project} index={index} />
         ))}
       </div>
     </section>

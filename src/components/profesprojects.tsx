@@ -12,7 +12,6 @@ type TProject = (typeof profesprojects)[number];
 type TProps = {
   project: TProject;
   index: number;
-  starsCount: number[];
 };
 
 const fadeInAnimationVariants = {
@@ -29,7 +28,7 @@ const fadeInAnimationVariants = {
   }),
 };
 
-export const ProjectPro = ({ project, index, starsCount }: TProps) => {
+export const ProjectPro = ({ project, index }: TProps) => {
   const { image, title, description, technologies, links } = project;
 
   return (
@@ -41,10 +40,16 @@ export const ProjectPro = ({ project, index, starsCount }: TProps) => {
         once: true,
       }}
       custom={index}
-      className="bg-secondary flex flex-col items-center rounded p-5 text-center md:w-1/3"
+      className="bg-secondary flex flex-col items-center rounded p-5 text-center"
     >
-      <div className="bg-muted w-fit rounded-full p-4">
-        <Image src={image} alt={`${title} image`} width={32} height={32} />
+      <div className="bg-muted flex size-16 items-center justify-center rounded-full p-3">
+        <Image
+          src={image}
+          alt={`${title} logo`}
+          width={64}
+          height={64}
+          className="max-h-full w-auto object-contain"
+        />
       </div>
       <h3 className="my-2 text-lg font-medium">{title}</h3>
       <p className="text-muted-foreground">{description}</p>
@@ -55,22 +60,24 @@ export const ProjectPro = ({ project, index, starsCount }: TProps) => {
           </span>
         ))}
       </div>
-      <div className="mt-2 flex">
-        <Button variant="outline" asChild className="mr-2 px-5">
-          <a href={links.preview} aria-label="preview project">
-            <Icons.preview className="size-5" />
-          </a>
-        </Button>
-        <Button variant="outline" asChild className="mr-2 px-5">
-          <a href={links.github} aria-label="github">
-            <Icons.githubOutline className="size-5" />
-          </a>
-        </Button>
-        {starsCount[index] > 100 && (
-          <Button asChild className="px-5">
+      <div className="mt-auto flex pt-2">
+        {links.preview !== '#' && (
+          <Button variant="outline" asChild className="px-5">
+            <a
+              href={links.preview}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`visit ${title}`}
+            >
+              <Icons.preview className="mr-2 size-5" />
+              Visit site
+            </a>
+          </Button>
+        )}
+        {links.github !== '#' && (
+          <Button variant="outline" asChild className="ml-2 px-5">
             <a href={links.github} aria-label="github">
-              <Icons.star className="mr-2 size-5" />
-              <span className="font-bold">{starsCount[index]}</span>
+              <Icons.githubOutline className="size-5" />
             </a>
           </Button>
         )}

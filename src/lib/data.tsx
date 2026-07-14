@@ -26,8 +26,9 @@ export const links = [
 export const projectsData = [
   {
     image: '/projects/chart-donut.svg',
-    title: 'AI-Driven Personal Finance Advisor',
-    description: 'Next-generation Personal Finance Tracker & Advisor.',
+    title: 'FinSmarts — AI Personal Finance Advisor',
+    description:
+      'An AI-powered finance platform that tracks spending and delivers personalized financial advice using the Gemini API, with secure auth via Clerk.',
     technologies: [
       'Next.js',
       'JavaScript',
@@ -46,17 +47,18 @@ export const projectsData = [
   },
   {
     image: '/projects/foodapp.svg',
-    title: 'Digital Food app',
-    description: 'Online Food Ordering, with useful features.',
+    title: 'DigitalFood — Online Food Ordering',
+    description:
+      'A full-stack food ordering app with JWT authentication, order management, an admin dashboard, and Khalti payment integration.',
     technologies: [
       'React',
       'Vite',
       'JavaScript',
       'Tailwind',
-      'Node js ',
-      'Express Js',
-      'Jwt Auth',
-      'Khati Payment',
+      'Node.js',
+      'Express.js',
+      'JWT Auth',
+      'Khalti Payment',
     ],
     links: {
       preview: 'https://digital-food-livid.vercel.app/',
@@ -66,10 +68,10 @@ export const projectsData = [
   },
   {
     image: '/projects/T.svg',
-    title: 'TaskTrack Pro',
+    title: 'TaskTrack Pro — Client & Task Management',
     description:
-      'Designed to streamline task tracking and enhance productivity for teams and individuals.',
-    technologies: ['Laravel', 'Boostrap', 'JavaScript', 'HTML', 'PHP', 'CSS'],
+      'A Laravel-based management system that streamlines task tracking and client workflows for teams and individuals.',
+    technologies: ['Laravel', 'Bootstrap', 'JavaScript', 'HTML', 'PHP', 'CSS'],
     links: {
       preview: 'https://github.com/BijayX/client-management-system-development',
       github: 'https://github.com/BijayX/client-management-system-development',
@@ -80,56 +82,49 @@ export const projectsData = [
 
 export const profesprojects = [
   {
-    image: '/projects/T.svg',
-    title: 'Medi-Market',
-    description: 'Market Store to Sell Medcine',
-    technologies: [
-      'Laravel',
-      'JavaScript',
-      'JQuery',
-      'Boostrap',
-      'HTML',
-      'CSS',
-    ],
+    image: '/projects/rentsy.png',
+    title: 'Rentsy',
+    description:
+      "Australia's fastest-growing rental marketplace, where users hire anything from party equipment to tools — with search, instant booking, and supplier portals.",
+    technologies: ['Laravel', 'PHP', 'JavaScript', 'MySQL'],
     links: {
-      preview: 'https://medi-market.com.au/',
+      preview: 'https://rentsy.com.au/',
       github: '#',
       githubApi: 'https://api.github.com/',
     },
   },
   {
-    image: '/projects/T.svg',
-    title: 'TU Hostel Form',
-    description: 'Hostel Form for students with payment',
-    technologies: [
-      'Core PHP',
-      'HTML',
-      'JavaScript',
-      'Boostrap',
-      'JQuery',
-      'Khati Payment',
-    ],
+    image: '/projects/goodsam.png',
+    title: 'Good Sam',
+    description:
+      'A community kindness app that connects people in need with nearby helpers. Built the admin panel and backend APIs for users, subscriptions, and notifications.',
+    technologies: ['Laravel', 'PHP', 'REST API', 'MySQL'],
     links: {
-      preview: 'https://uch.edu.np/',
+      preview: 'https://goodsamact.com/',
       github: '#',
       githubApi: 'https://api.github.com/',
     },
   },
   {
-    image: '/projects/T.svg',
-    title: 'GFM',
-    description: 'Global Food Metrics',
-    technologies: [
-      'Laravel 11',
-      'Boostrap',
-      'JavaScript',
-      'HTML',
-      'PHP',
-      'CSS',
-      'Vite',
-    ],
+    image: '/projects/becomesecure.png',
+    title: 'Become Secure',
+    description:
+      'An attachment-theory learning app for iOS and Android, featuring quizzes, progress tracking, and a growth journal backed by a REST API.',
+    technologies: ['Laravel', 'PHP', 'REST API', 'MySQL'],
     links: {
-      preview: '#',
+      preview: 'https://www.becomesecure.com.au/',
+      github: '#',
+      githubApi: 'https://api.github.com/',
+    },
+  },
+  {
+    image: '/projects/hookedup.png',
+    title: 'Hooked Up',
+    description:
+      "Australia's outdoor adventure app for hunting, fishing, and camping — with trip planning, cost sharing, real-time messaging, and member subscriptions.",
+    technologies: ['Laravel', 'PHP', 'REST API', 'MySQL'],
+    links: {
+      preview: 'https://hookedupapp.com/',
       github: '#',
       githubApi: 'https://api.github.com/',
     },
@@ -138,25 +133,25 @@ export const profesprojects = [
 
 export const experiencesData = [
   {
-    title: 'Freelancing',
+    title: 'Freelance Web & UI Designer',
     location: 'Remote',
     description:
-      'As a freelancer, I specialized in graphic design using Figma.',
+      'Designed user interfaces and brand assets in Figma for small business clients, translating requirements into clean, modern designs and building a foundation in user-centered thinking.',
     date: '2022',
   },
   {
-    title: 'Internship at Uno Tech',
-    location: 'OnSite',
+    title: 'Software Developer Intern — Uno Technology',
+    location: 'Kathmandu, Nepal',
     description:
-      'As an intern at Uno Tech, I collaborate with cross-functional teams on various projects, enhancing my software development and project management skills. My role includes designing innovative solutions, participating in code reviews, and assisting in creating user-friendly applications, providing valuable hands-on experience in a dynamic environment.',
+      'Collaborated with cross-functional teams to build web applications that improved internal workflows. Designed and implemented RESTful APIs for system interoperability and mobile app support, participated in code reviews, and delivered features on schedule in an agile environment.',
     date: '2023',
   },
   {
-    title: 'Junior Developer at Uno Tech',
-    location: 'OnSite',
+    title: 'Junior Software Developer — Uno Technology',
+    location: 'Kathmandu, Nepal',
     description:
-      'As a Junior Developer at Uno Tech, I assist in developing and maintaining web applications using modern technologies. I collaborate with senior developers to implement features, troubleshoot issues, and improve user experience while participating in code reviews and team meetings to enhance my skills in React,Laravel, PHP ,and Node.js.',
-    date: 'Present',
+      "Develop and maintain production web applications using Laravel, PHP, React, and Node.js. Built a comprehensive admin panel for user management, integrated the Khalti payment gateway for secure transactions, and shipped features for Tribhuvan University's certificate portal and hostel application system used by real students.",
+    date: 'Oct 2023 - Present',
   },
 ] as const;
 

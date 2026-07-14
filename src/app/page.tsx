@@ -24,7 +24,7 @@ const Home = async () => {
         <SectionDivider />
         <About />
         <Projects starsCount={starsCount} />
-        <ProProjects starsCount={starsCount} />
+        <ProProjects />
         <Experience />
         <Contact />
         <Footer />
