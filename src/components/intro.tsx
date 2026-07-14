@@ -27,7 +27,7 @@ export const Intro = () => {
         className="bg-muted flex items-center gap-2 rounded-full px-4 py-1.5 text-sm font-medium"
       >
         <span className="relative flex size-2">
-          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
+          <span className="absolute inline-flex size-full animate-ping rounded-full bg-green-400 opacity-75" />
           <span className="relative inline-flex size-2 rounded-full bg-green-500" />
         </span>
         Available for work &amp; freelance projects
