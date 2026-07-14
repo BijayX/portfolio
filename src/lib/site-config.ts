@@ -22,6 +22,6 @@ export const siteConfig = {
     'Portfolio',
     'Web applications',
   ],
-  url: env.SITE_URL || 'https://example.com',
+  url: env.SITE_URL || 'https://bijayastha.com.np',
   googleSiteVerificationId: env.GOOGLE_SITE_VERIFICATION_ID || '',
 };
