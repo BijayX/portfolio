@@ -47,3 +47,7 @@ sitemap-*.xml
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+# cloudflare / opennext
+.open-next/
+.wrangler/
