@@ -11,9 +11,18 @@ import { projectsData } from '@/lib/data';
 const Home = async () => {
   const starsCount = await Promise.all(
     projectsData.map(async ({ links }) => {
-      const res = await fetch(links.githubApi, { cache: 'no-store' });
-      const data = await res.json();
-      return data.stargazers_count;
+      try {
+        // GitHub's API rejects requests without a User-Agent header
+        const res = await fetch(links.githubApi, {
+          cache: 'no-store',
+          headers: { 'User-Agent': 'bijayastha-portfolio' },
+        });
+        if (!res.ok) return 0;
+        const data = await res.json();
+        return data.stargazers_count ?? 0;
+      } catch {
+        return 0;
+      }
     })
   );
   return (

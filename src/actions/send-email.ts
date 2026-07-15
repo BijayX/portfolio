@@ -5,10 +5,9 @@ import { Resend } from 'resend';
 import { env } from '@/env.mjs';
 import { TFormSchema } from '@/lib/form-schema';
 
-const resend = new Resend(env.RESEND_API_KEY);
-
 export const sendEmail = async ({ email, message }: TFormSchema) => {
   try {
+    const resend = new Resend(env.RESEND_API_KEY);
     await resend.emails.send({
       from: 'Contact Form <onboarding@resend.dev>',
       to: 'sthabeejay2060@gmail.com',
