@@ -109,7 +109,7 @@ export const profesprojects = [
     image: '/projects/becomesecure.png',
     title: 'Become Secure',
     description:
-      'An attachment-theory learning app for iOS and Android, featuring quizzes, progress tracking, and a growth journal backed by a REST API.',
+      'An attachment-theory learning app for iOS and Android, featuring quizzes, progress tracking, and a growth journal, all powered by a REST API.',
     technologies: ['Laravel', 'PHP', 'REST API', 'MySQL'],
     links: {
       preview: 'https://www.becomesecure.com.au/',
@@ -161,6 +161,7 @@ export const skillsData = [
   { icon: <Icons.tailwind className="size-12" /> },
   { icon: <Icons.bootstrap className="size-12" /> },
   { icon: <Icons.javascript className="size-12" /> },
+  { icon: <Icons.typescript className="size-12" /> },
   { icon: <Icons.react className="size-12" /> },
   { icon: <Icons.redux className="size-12" /> },
   { icon: <Icons.nextjs className="size-12" /> },
@@ -168,4 +169,7 @@ export const skillsData = [
   { icon: <Icons.php className="size-12" /> },
   { icon: <Icons.nodejs className="size-12" /> },
   { icon: <Icons.expressjs className="size-12" /> },
+  { icon: <Icons.git className="size-12" /> },
+  { icon: <Icons.github className="size-12" /> },
+  { icon: <Icons.githubActions className="size-12" /> },
 ] as const;
