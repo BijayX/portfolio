@@ -1,5 +1,10 @@
 import { Icons } from '@/components/icons';
 
+// Single source of truth for the contact address (mailto link + contact form).
+// Lives here, not in site-config, because site-config reads server-only env vars
+// and would crash client components that import it.
+export const contactEmail = 'sthabeejay2060@gmail.com';
+
 export const links = [
   {
     name: 'Home',
@@ -8,6 +13,10 @@ export const links = [
   {
     name: 'About',
     hash: '#about',
+  },
+  {
+    name: 'Services',
+    hash: '#services',
   },
   {
     name: 'Projects',
@@ -42,7 +51,7 @@ export const projectsData = [
     links: {
       preview: 'https://fin-smarts.vercel.app/',
       github: 'https://github.com/BijayX/FinSmarts',
-      githubApi: 'https://api.github.com/',
+      githubApi: 'https://api.github.com/repos/BijayX/FinSmarts',
     },
   },
   {
@@ -63,7 +72,7 @@ export const projectsData = [
     links: {
       preview: 'https://digital-food-livid.vercel.app/',
       github: 'https://github.com/BijayX/DigitalFoodsFrontend',
-      githubApi: 'https://api.github.com/',
+      githubApi: 'https://api.github.com/repos/BijayX/DigitalFoodsFrontend',
     },
   },
   {
@@ -73,9 +82,10 @@ export const projectsData = [
       'A Laravel-based management system that streamlines task tracking and client workflows for teams and individuals.',
     technologies: ['Laravel', 'Bootstrap', 'JavaScript', 'HTML', 'PHP', 'CSS'],
     links: {
-      preview: 'https://github.com/BijayX/client-management-system-development',
+      preview: '#',
       github: 'https://github.com/BijayX/client-management-system-development',
-      githubApi: 'https://api.github.com/',
+      githubApi:
+        'https://api.github.com/repos/BijayX/client-management-system-development',
     },
   },
 ] as const;
@@ -85,7 +95,7 @@ export const profesprojects = [
     image: '/projects/rentsy.png',
     title: 'Rentsy',
     description:
-      "Australia's fastest-growing rental marketplace, where users hire anything from party equipment to tools — with search, instant booking, and supplier portals.",
+      'An Australian rental marketplace where users hire anything from party equipment to tools, with search, instant booking, and supplier portals.',
     technologies: ['Laravel', 'PHP', 'JavaScript', 'MySQL'],
     links: {
       preview: 'https://rentsy.com.au/',
@@ -121,7 +131,7 @@ export const profesprojects = [
     image: '/projects/hookedup.png',
     title: 'Hooked Up',
     description:
-      "Australia's outdoor adventure app for hunting, fishing, and camping — with trip planning, cost sharing, real-time messaging, and member subscriptions.",
+      'An Australian outdoor adventure app for hunting, fishing, and camping, with trip planning, cost sharing, real-time messaging, and member subscriptions.',
     technologies: ['Laravel', 'PHP', 'REST API', 'MySQL'],
     links: {
       preview: 'https://hookedupapp.com/',
@@ -129,6 +139,40 @@ export const profesprojects = [
       githubApi: 'https://api.github.com/',
     },
   },
+] as const;
+
+export const servicesData = [
+  {
+    icon: <Icons.code className="size-6" />,
+    title: 'Web Applications',
+    description:
+      'Custom web apps with Laravel, React and Next.js, from MVP to production: marketplaces, booking systems and SaaS dashboards.',
+  },
+  {
+    icon: <Icons.smartphone className="size-6" />,
+    title: 'Mobile App Backends & APIs',
+    description:
+      'Secure REST APIs that power iOS and Android apps, covering auth, user data, real-time messaging and push notifications.',
+  },
+  {
+    icon: <Icons.creditCard className="size-6" />,
+    title: 'Payments & Subscriptions',
+    description:
+      'Subscription billing, in-app purchase verification and payment gateway integrations, done correctly and securely.',
+  },
+  {
+    icon: <Icons.layoutDashboard className="size-6" />,
+    title: 'Admin Panels & Internal Tools',
+    description:
+      'Admin dashboards for managing users, content, orders and subscriptions, so your team can run the business without a developer.',
+  },
+] as const;
+
+export const workProcess = [
+  'Clear scope and estimate before any work starts',
+  'Regular written progress updates and demo videos',
+  'Clean, documented code in your repository, so you own everything',
+  'Async-friendly, with overlap for Australian and European working hours',
 ] as const;
 
 export const experiencesData = [

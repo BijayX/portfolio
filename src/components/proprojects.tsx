@@ -12,7 +12,7 @@ export const ProProjects = () => {
   const { ref } = useSectionInView('Projects');
 
   return (
-    <section ref={ref} className="my-10 scroll-mt-28">
+    <section ref={ref} id="projects" className="my-10 scroll-mt-28">
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         whileInView={{
@@ -27,8 +27,8 @@ export const ProProjects = () => {
         }}
       >
         <SectionHeading
-          heading="Professional Projects"
-          content="Production applications I've built and shipped for real clients as part of a team."
+          heading="Client Work"
+          content="Production apps for Australian clients that I helped build and ship as part of the Uno Technology team."
         />
       </motion.div>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2">

@@ -14,7 +14,7 @@ type TProps = {
 export const Projects = ({ starsCount }: TProps) => {
   const { ref } = useSectionInView('Projects');
   return (
-    <section ref={ref} id="projects" className="my-10 scroll-mt-28">
+    <section ref={ref} className="my-10 scroll-mt-28">
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         whileInView={{
@@ -29,8 +29,8 @@ export const Projects = ({ starsCount }: TProps) => {
         }}
       >
         <SectionHeading
-          heading="My Projects"
-          content="A selection of projects I've designed and built."
+          heading="Personal Projects"
+          content="Side projects I've designed and built end-to-end on my own."
         />
       </motion.div>
       <div className="flex flex-col gap-8 md:flex-row">

@@ -1,12 +1,17 @@
 import {
   ArrowRight,
   Briefcase,
+  Check,
   ChevronDown,
+  Code2,
+  CreditCard,
   Download,
   ExternalLink,
   Github,
+  LayoutDashboard,
   LucideProps,
   Moon,
+  Smartphone,
   Star,
   Sun,
 } from 'lucide-react';
@@ -21,6 +26,11 @@ export const Icons = {
   briefcase: Briefcase,
   chevronDown: ChevronDown,
   star: Star,
+  check: Check,
+  code: Code2,
+  creditCard: CreditCard,
+  layoutDashboard: LayoutDashboard,
+  smartphone: Smartphone,
   github: (props: LucideProps) => (
     <svg viewBox="0 0 24 24" {...props}>
       <path

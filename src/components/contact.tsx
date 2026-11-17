@@ -10,6 +10,7 @@ import { Button } from '@/components/button';
 import { Icons } from '@/components/icons';
 import { SectionHeading } from '@/components/section-heading';
 import { useSectionInView } from '@/hooks/use-section-in-view';
+import { contactEmail } from '@/lib/data';
 import { formSchema, TFormSchema } from '@/lib/form-schema';
 import { cn } from '@/lib/utils';
 
@@ -53,19 +54,20 @@ export const Contact = () => {
       }}
     >
       <SectionHeading
-        heading="Get In Touch"
+        heading="Let's Work Together"
         content={
           <>
-            Please contact me directly at{' '}
+            Have a project in mind? Tell me what you&apos;re building and
+            I&apos;ll reply within 24 hours. Email me at{' '}
             <Button
               variant="link"
               className="text-muted-foreground p-0 font-medium"
             >
               <a
                 className="underline-offset-4 hover:underline"
-                href="mailto:skolakmichal1@gmail.com"
+                href={`mailto:${contactEmail}`}
               >
-                sthabeejay2060@gmail.com
+                {contactEmail}
               </a>
             </Button>{' '}
             or through this form.
@@ -114,7 +116,7 @@ export const Contact = () => {
           </label>
           <textarea
             id="message"
-            placeholder="Hello! How are you?"
+            placeholder="Hi Bijay, we're building... and need help with..."
             {...register('message')}
             className={cn(
               'border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring mt-2 flex h-60 w-full resize-none rounded-md border px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50',

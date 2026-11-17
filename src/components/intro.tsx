@@ -37,7 +37,8 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         className="text-3xl font-bold leading-tight tracking-tighter sm:text-4xl"
       >
-        Full Stack Developer crafting fast, scalable web applications.
+        Laravel &amp; React developer building web apps and mobile backends for
+        growing businesses.
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 100 }}
@@ -47,10 +48,10 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-lg"
       >
-        Hi, I&apos;m Bijay Kumar Shrestha &mdash; a full stack developer based
-        in Kathmandu, Nepal. I specialize in building production-ready web
-        applications with React, Next.js, Laravel, and Node.js, from responsive
-        interfaces to secure APIs and payment integrations.
+        Hi, I&apos;m Bijay Kumar Shrestha, a full stack developer in Kathmandu,
+        Nepal. I&apos;ve helped ship production apps for Australian clients (a
+        rental marketplace, subscription apps and iOS/Android backends) using
+        Laravel, React, Next.js and Node.js.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
@@ -62,7 +63,7 @@ export const Intro = () => {
       >
         <Button asChild size="lg">
           <Link href="#contact">
-            Get in touch <Icons.arrowRight className="ml-2 size-4" />
+            Start a project <Icons.arrowRight className="ml-2 size-4" />
           </Link>
         </Button>
         <Button

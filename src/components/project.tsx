@@ -54,11 +54,19 @@ export const Project = ({ project, index, starsCount }: TProps) => {
         ))}
       </div>
       <div className="mt-2 flex">
-        <Button variant="outline" asChild className="mr-2 px-5">
-          <a href={links.preview} aria-label="preview project">
-            <Icons.preview className="size-5" />
-          </a>
-        </Button>
+        {(links.preview as string) !== '#' && (
+          <Button variant="outline" asChild className="mr-2 px-5">
+            <a
+              href={links.preview}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`live demo of ${title}`}
+            >
+              <Icons.preview className="mr-2 size-5" />
+              Live demo
+            </a>
+          </Button>
+        )}
         <Button variant="outline" asChild className="mr-2 px-5">
           <a href={links.github} aria-label="github">
             <Icons.githubOutline className="size-5" />

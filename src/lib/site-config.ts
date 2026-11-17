@@ -1,9 +1,9 @@
 import { env } from '@/env.mjs';
 
 export const siteConfig = {
-  title: 'Bijay Kumar Shrestha | Full Stack Developer',
+  title: 'Bijay Kumar Shrestha | Laravel & React Developer',
   description:
-    'Full stack developer from Kathmandu, Nepal, specializing in React, Next.js, Laravel, and Node.js. I build fast, scalable web applications — open to job opportunities and freelance projects.',
+    'Freelance Laravel & React developer in Kathmandu, Nepal. I build web apps, mobile app backends, subscriptions and payment integrations, and have shipped production apps for Australian clients.',
   keywords: [
     'Bijay Kumar Shrestha',
     'Full stack developer',
@@ -16,6 +16,10 @@ export const siteConfig = {
     'PHP',
     'Web developer for hire',
     'Freelance developer',
+    'Freelance Laravel developer',
+    'Laravel developer Nepal',
+    'Mobile app backend developer',
+    'Remote developer Australia',
     'Web development',
     'JavaScript',
     'TypeScript',

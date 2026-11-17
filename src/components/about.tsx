@@ -29,9 +29,10 @@ export const About = () => {
         </p>
         <p className="mb-4">
           I currently work as a software developer at Uno Technology, where I
-          build and maintain production web applications. My core stack includes
-          React, Next.js, Node.js, Laravel, and PHP, backed by MySQL and
-          PostgreSQL.
+          build and maintain production apps for clients in Australia and Nepal,
+          including marketplace platforms, subscription apps, mobile app APIs
+          and payment integrations. My core stack includes React, Next.js,
+          Node.js, Laravel, and PHP, backed by MySQL and PostgreSQL.
         </p>
         <p>
           Whether you're a company looking for a dependable developer or a

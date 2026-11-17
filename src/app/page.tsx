@@ -7,6 +7,7 @@ import { Intro } from '@/components/intro';
 import { Projects } from '@/components/projects';
 import { ProProjects } from '@/components/proprojects';
 import { SectionDivider } from '@/components/section-divider';
+import { Services } from '@/components/services';
 import { projectsData } from '@/lib/data';
 const Home = async () => {
   const starsCount = await Promise.all(
@@ -32,8 +33,9 @@ const Home = async () => {
         <Intro />
         <SectionDivider />
         <About />
-        <Projects starsCount={starsCount} />
+        <Services />
         <ProProjects />
+        <Projects starsCount={starsCount} />
         <Experience />
         <Contact />
         <Footer />

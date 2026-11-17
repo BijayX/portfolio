@@ -22,7 +22,7 @@ export const Experience = () => {
     <section ref={sectionRef} id="experience" className="my-10 scroll-mt-28">
       <SectionHeading
         heading="My Experience"
-        content="Professional experience that I have accumulated over several years."
+        content="Building software professionally since 2022."
       />
       <VerticalTimeline lineColor="hsl(var(--muted))">
         {experiencesData.map(({ title, description, location, date }) => (
