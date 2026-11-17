@@ -21,23 +21,29 @@ export const About = () => {
       <SectionHeading heading="About Me" />
       <div className="-mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4">
-          I'm Bijay Kumar Shrestha, a full stack developer from Kathmandu,
-          Nepal, with a Bachelor's degree in Information Technology. I work
-          across the entire stack &mdash; building responsive front-ends,
-          designing RESTful APIs, and modeling databases &mdash; with a strong
-          focus on writing clean, maintainable code.
+          I'm Bijay, a full-stack developer from Nepal with 3+ years of building
+          and shipping production web and mobile apps, mostly for Australian
+          businesses. I've built a multi-vendor rental marketplace with 400+
+          partners, subscription apps on the App Store and Google Play, and the
+          backends behind social and community platforms.
         </p>
         <p className="mb-4">
-          I currently work as a software developer at Uno Technology, where I
-          build and maintain production apps for clients in Australia and Nepal,
-          including marketplace platforms, subscription apps, mobile app APIs
-          and payment integrations. My core stack includes React, Next.js,
-          Node.js, Laravel, and PHP, backed by MySQL and PostgreSQL.
+          My specialty is the hard, money-related parts: I&apos;ve integrated
+          10+ payment and financial systems in production, including Stripe
+          Connect payouts, subscriptions, in-app purchases, Plaid and Basiq.
+          I&apos;m comfortable owning a feature from the database schema to the
+          deployed UI, and I care about clean, maintainable code that the next
+          developer can pick up.
+        </p>
+        <p className="mb-4">
+          Outside my day job at Uno Technology, I built FlowPilot, a
+          multi-tenant automation SaaS with a visual flow builder, a background
+          task engine and 30+ integrations.
         </p>
         <p>
-          Whether you're a company looking for a dependable developer or a
-          client with a product idea, I bring end-to-end execution &mdash; from
-          first mockup to deployed application. Let's build something together.
+          I&apos;m available for remote contract and freelance work. If you need
+          a dependable developer who communicates clearly and ships, let&apos;s
+          talk.
         </p>
       </div>
       <Skills />

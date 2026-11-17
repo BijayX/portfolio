@@ -125,10 +125,22 @@ export const profesprojects = [
     image: '/projects/rentsy.png',
     title: 'Rentsy',
     description:
-      'An Australian rental marketplace where users hire anything from party equipment to tools, with search, instant booking, and supplier portals.',
-    technologies: ['Laravel', 'PHP', 'JavaScript', 'MySQL'],
+      'A multi-vendor rental marketplace with 4,500+ items and 400+ rental partners. I built the frontend and backend: location-based search, date-based booking, checkout and automated vendor payouts via Stripe Connect.',
+    technologies: ['Laravel', 'React', 'MySQL', 'Stripe Connect', 'AWS S3'],
     links: {
       preview: 'https://rentsy.com.au/',
+      github: '#',
+      githubApi: 'https://api.github.com/',
+    },
+  },
+  {
+    image: '/projects/widi.png',
+    title: 'WIDI (When I Die Initiate)',
+    description:
+      'A digital legacy platform that securely stores documents and memories and releases them to loved ones after a verified death. I built Stripe subscription plans, a future-dated message scheduler and encrypted vault storage.',
+    technologies: ['Laravel', 'Next.js', 'MySQL', 'Stripe', 'AWS S3'],
+    links: {
+      preview: 'https://widiapp.com.au/',
       github: '#',
       githubApi: 'https://api.github.com/',
     },
@@ -149,8 +161,13 @@ export const profesprojects = [
     image: '/projects/becomesecure.png',
     title: 'Become Secure',
     description:
-      'An attachment-theory learning app for iOS and Android, featuring quizzes, progress tracking, and a growth journal, all powered by a REST API.',
-    technologies: ['Laravel', 'PHP', 'REST API', 'MySQL'],
+      'An attachment-theory app for iOS and Android. I led the backend and mobile refactor, shipped 20+ releases, and integrated In-App Purchases for weekly, monthly, yearly and lifetime plans.',
+    technologies: [
+      'Laravel API',
+      'React Native',
+      'In-App Purchases',
+      'Firebase',
+    ],
     links: {
       preview: 'https://www.becomesecure.com.au/',
       github: '#',
@@ -161,8 +178,8 @@ export const profesprojects = [
     image: '/projects/hookedup.png',
     title: 'Hooked Up',
     description:
-      'An Australian outdoor adventure app for hunting, fishing, and camping, with trip planning, cost sharing, real-time messaging, and member subscriptions.',
-    technologies: ['Laravel', 'PHP', 'REST API', 'MySQL'],
+      'A social platform for hunting, fishing and camping enthusiasts. I built the complete Laravel backend: matching, events, forums, real-time chat, social feed and IAP premium unlocks.',
+    technologies: ['Laravel', 'JWT', 'Firebase', 'In-App Purchases', 'MySQL'],
     links: {
       preview: 'https://hookedupapp.com/',
       github: '#',
@@ -188,7 +205,7 @@ export const servicesData = [
     icon: <Icons.creditCard className="size-6" />,
     title: 'Payments & Subscriptions',
     description:
-      'Subscription billing, in-app purchase verification and payment gateway integrations, done correctly and securely.',
+      'Stripe Connect marketplaces and payouts, subscription billing, App Store and Google Play in-app purchases, and Plaid/Basiq banking data. I have integrated 10+ payment systems in production.',
   },
   {
     icon: <Icons.layoutDashboard className="size-6" />,
@@ -221,10 +238,10 @@ export const experiencesData = [
     date: '2023',
   },
   {
-    title: 'Junior Software Developer — Uno Technology',
-    location: 'Kathmandu, Nepal',
+    title: 'Full-Stack Web Developer — Uno Technology',
+    location: 'Kathmandu, Nepal · Clients in Australia & Nepal',
     description:
-      "Develop and maintain production web applications using Laravel, PHP, React, and Node.js. Built a comprehensive admin panel for user management, integrated the Khalti payment gateway for secure transactions, and shipped features for Tribhuvan University's certificate portal and hostel application system used by real students.",
+      'Own end-to-end delivery of web and mobile platforms (Laravel/Node back ends, React/Next.js front ends) for apps with thousands of active users. Integrated 10+ payment systems including Stripe Connect, In-App Purchases, Plaid and Basiq; built real-time chat, push notifications and video calling; led refactoring and shipped 20+ app releases; deployed and maintained production apps on AWS.',
     date: 'Oct 2023 - Present',
   },
 ] as const;

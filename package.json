@@ -15,7 +15,8 @@
     "typecheck": "tsc --noEmit",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "cf:preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "prepare": "husky"
+    "prepare": "husky",
+    "resume": "\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" --headless --disable-gpu --no-pdf-header-footer --print-to-pdf=public/Bijay_shrestha_Resume.pdf resume/resume.html"
   },
   "husky": {
     "hooks": {

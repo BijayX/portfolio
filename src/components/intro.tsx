@@ -48,10 +48,10 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-lg"
       >
-        Hi, I&apos;m Bijay Kumar Shrestha, a full stack developer in Kathmandu,
-        Nepal. I&apos;ve helped ship production apps for Australian clients (a
-        rental marketplace, subscription apps and iOS/Android backends) using
-        Laravel, React, Next.js and Node.js.
+        Hi, I&apos;m Bijay Kumar Shrestha, a full-stack developer in Nepal. For
+        3+ years I&apos;ve shipped production apps for Australian businesses
+        (marketplaces, subscription apps and iOS/Android backends) and
+        integrated 10+ payment systems, from Stripe Connect to in-app purchases.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}

@@ -28,7 +28,7 @@ export const ProProjects = () => {
       >
         <SectionHeading
           heading="Client Work"
-          content="Production apps for Australian clients that I helped build and ship as part of the Uno Technology team."
+          content="Production apps for Australian clients that I built and shipped with the Uno Technology team."
         />
       </motion.div>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2">

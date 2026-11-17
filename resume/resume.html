@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bijay Kumar Shrestha - Resume</title>
+<!--
+  Source for public/Bijay_shrestha_Resume.pdf.
+  Rebuild after editing:  npm run resume
+-->
+<style>
+  @page { size: A4; margin: 13mm 15mm 12mm; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 9.6pt;
+    line-height: 1.38;
+    color: #1f2328;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  a { color: #1f5fae; text-decoration: none; }
+  h1 { margin: 0; font-size: 21pt; letter-spacing: .5px; color: #1d3557; font-weight: 800; }
+  .role { margin: 2px 0 4px; font-size: 11pt; color: #1f5fae; font-weight: 500; }
+  .contact { font-size: 8.8pt; color: #4b5563; }
+  .contact span + span::before { content: "•"; margin: 0 6px; color: #9ca3af; }
+  .badge {
+    display: inline-block; margin-top: 5px; padding: 1px 8px; border-radius: 10px;
+    background: #e8f1fb; color: #1d3557; font-size: 8.4pt; font-weight: 600;
+  }
+  h2 {
+    margin: 11px 0 5px; padding-bottom: 2px; border-bottom: 1.4px solid #1f5fae;
+    font-size: 10.6pt; color: #1d3557; letter-spacing: .4px; text-transform: uppercase;
+  }
+  p { margin: 0; }
+  ul { margin: 2px 0 0; padding-left: 15px; }
+  li { margin: 1.5px 0; }
+  li::marker { color: #1f5fae; }
+  .row { display: flex; justify-content: space-between; align-items: baseline; }
+  .muted { color: #6b7280; }
+  .sub { font-style: italic; color: #6b7280; font-size: 9pt; }
+  .job { break-inside: avoid; margin-bottom: 4px; }
+  .project { break-inside: avoid; margin-top: 7px; }
+  .project-title { font-weight: 700; color: #1f5fae; }
+  .project-title .muted { font-weight: 400; }
+  .tech { font-size: 8.6pt; color: #4b5563; margin-top: 1px; }
+  .tech b { color: #374151; }
+  .skills p { margin: 1.5px 0; }
+  .skills b { color: #1d3557; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>BIJAY KUMAR SHRESTHA</h1>
+  <p class="role">Full-Stack Developer &nbsp;|&nbsp; Laravel · React · Next.js &nbsp;|&nbsp; Payments &amp; SaaS</p>
+  <p class="contact">
+    <span>Bhaktapur, Nepal (UTC+5:45)</span><span><a href="mailto:sthabeejay2060@gmail.com">sthabeejay2060@gmail.com</a></span><span>+977 9809669333</span>
+  </p>
+  <p class="contact">
+    <span><a href="https://bijayastha.com.np">bijayastha.com.np</a></span><span><a href="https://github.com/BijayX">github.com/BijayX</a></span><span><a href="https://www.linkedin.com/in/bijay-shrestha-b26477245">linkedin.com/in/bijay-shrestha-b26477245</a></span>
+  </p>
+  <span class="badge">Open to remote contract &amp; freelance work</span>
+</header>
+
+<h2>Professional Summary</h2>
+<p>
+  Full-stack developer with 3+ years building and shipping production web and mobile platforms for Australian clients,
+  including multi-vendor marketplaces, subscription apps and social networks serving thousands of users. Specialised in payment
+  and financial integrations across 10+ systems (Stripe Connect, In-App Purchases, Plaid, Basiq and regional gateways).
+  Recently designed and built <b>FlowPilot</b>, a multi-tenant SaaS automation platform, end to end. Comfortable owning a
+  feature from database to deployed UI, and working async with distributed teams.
+</p>
+
+<h2>Professional Experience</h2>
+<div class="job">
+  <div class="row"><b>UNO Technology — Full-Stack Web Developer</b><span class="muted">2023 – Present</span></div>
+  <p class="sub">Kathmandu, Nepal · Delivering for clients in Australia and Nepal · Promoted from Intern to Full-Time Developer</p>
+  <ul>
+    <li><b>Own end-to-end delivery</b> of web and mobile platforms across Laravel/Node back ends and React/Next.js front ends, supporting production traffic for apps with thousands of active users</li>
+    <li><b>Integrated 10+ payment and financial systems</b> (Stripe Connect, subscriptions and payouts, In-App Purchases on iOS and Android, Plaid, Basiq.io, Khalti, eSewa and Razorpay) powering checkout, automated payouts and subscription billing</li>
+    <li><b>Built real-time features</b> including Firebase live chat, FCM push notifications, Agora video/voice calling and ClickSend SMS/email delivery</li>
+    <li><b>Led codebase refactoring</b> of legacy code to improve performance and maintainability, and shipped 20+ tracked app releases</li>
+    <li><b>Implemented secure JWT auth</b> with multi-role access control across customer, vendor, admin and organisation portals</li>
+    <li><b>Deployed and maintained production apps</b> on AWS (EC2, S3) via key-based SSH with CI/CD, owning reliability and uptime</li>
+  </ul>
+</div>
+<div class="job">
+  <div class="row"><b>Freelance Web &amp; UI Designer</b><span class="muted">2022</span></div>
+  <ul>
+    <li>Designed interfaces and brand assets in Figma for small business clients, turning requirements into clean, modern designs</li>
+  </ul>
+</div>
+
+<h2>Key Projects</h2>
+
+<div class="project" style="margin-top:3px">
+  <div class="project-title">FlowPilot <span class="muted">— Business Automation SaaS for Small Businesses (personal product, 2026)</span></div>
+  <div class="tech"><b>Tech:</b> Next.js 16, React 19, TypeScript, PostgreSQL, Drizzle ORM, Better Auth, Tailwind CSS 4, Turborepo, Vitest, Playwright &nbsp;•&nbsp; <a href="https://github.com/BijayX/workflow">github.com/BijayX/workflow</a></div>
+  <ul>
+    <li>Designed and built a multi-tenant automation platform with a visual flow builder supporting triggers, filters, branches, delays and human approvals, with autosave and version history</li>
+    <li>Engineered a background task engine (webhooks, scheduler, retries, auto-pause on repeated failure, daily limits, quiet hours) and 30+ integrations including Xero, MYOB, Stripe, Shopify, HubSpot, Slack and Twilio, with encrypted OAuth credentials</li>
+    <li>Structured as a Turborepo monorepo (customer app, staff admin portal, shared UI library) with magic-link auth, role-based access (Owner/Admin/Editor/Viewer), unit and end-to-end tests in GitHub Actions CI</li>
+  </ul>
+</div>
+
+<div class="project">
+  <div class="project-title">Rentsy <span class="muted">— Online Rental Marketplace, Australia</span></div>
+  <div class="tech"><b>Tech:</b> Laravel, React.js, MySQL, Stripe Connect, Firebase, AWS S3, ClickSend, Zapier &nbsp;•&nbsp; <a href="https://rentsy.com.au">rentsy.com.au</a></div>
+  <ul>
+    <li>Built the full frontend and backend of a multi-vendor rental marketplace spanning 18+ categories with location-based search and dynamic listings</li>
+    <li>Designed the complete commerce flow: browsing, cart, date-based rental booking, checkout, order tracking and automated vendor payouts via Stripe Connect</li>
+    <li>Optimised queries and API response times to support <b>4,500+ items and 400+ rental partners</b>, with multi-role dashboards and a Rentsy Dollars loyalty/referral engine</li>
+  </ul>
+</div>
+
+<div class="project">
+  <div class="project-title">WIDI (When I Die Initiate) <span class="muted">— Digital Legacy &amp; End-of-Life Planning Platform, Australia</span></div>
+  <div class="tech"><b>Tech:</b> Laravel, React.js / Next.js, MySQL, Stripe, AWS S3, Firebase &nbsp;•&nbsp; <a href="https://widiapp.com.au">widiapp.com.au</a></div>
+  <ul>
+    <li>Built a full-stack platform that securely stores documents and memories and releases them to loved ones upon verified death (via Australian Death Certificate Number)</li>
+    <li>Developed Stripe subscription billing across 3-, 5- and 10-year plans plus storage add-ons, and a time-delayed scheduler for messages on future dates</li>
+    <li>Implemented encryption for sensitive vault data (PINs, crypto wallet access, credentials) and the secure Initiator Portal that triggers automated release emails</li>
+  </ul>
+</div>
+
+<div class="project">
+  <div class="project-title">Become Secure <span class="muted">— Attachment Theory Mobile App (iOS &amp; Android), Australia</span></div>
+  <div class="tech"><b>Tech:</b> Laravel (API), React Native, Firebase, In-App Purchases (Apple &amp; Google), Push Notifications &nbsp;•&nbsp; <a href="https://www.becomesecure.com.au">becomesecure.com.au</a></div>
+  <ul>
+    <li>Led refactoring of the backend and mobile codebase for performance and maintainability; shipped 20+ app versions across both stores</li>
+    <li>Integrated In-App Purchases for weekly, monthly, yearly and lifetime tiers on the App Store and Google Play, with attachment-style-tailored push notifications</li>
+    <li>Maintained Laravel APIs powering quizzes, growth journals, progress tracking, badges and partner connection features</li>
+  </ul>
+</div>
+
+<div class="project">
+  <div class="project-title">HookedUp <span class="muted">— Social Networking Platform for Outdoor Enthusiasts, Australia</span></div>
+  <div class="tech"><b>Tech:</b> Laravel, JWT, Firebase, AWS S3, ClickSend, In-App Purchases, MySQL &nbsp;•&nbsp; <a href="https://hookedupapp.com">hookedupapp.com</a></div>
+  <ul>
+    <li>Built the complete Laravel backend for registration, matching algorithms, events, forums and real-time chat</li>
+    <li>Developed a full social feature set (posts, likes, comments, shares, saves, explore feed and bucket lists) with IAP for premium unlocks</li>
+  </ul>
+</div>
+
+<div class="project">
+  <div class="project-title">FinSmarts: AI-Driven Financial Management System <span class="muted">— Academic Capstone</span></div>
+  <div class="tech"><b>Tech:</b> Next.js, Firebase, Gemini API, Chart.js, Python &nbsp;•&nbsp; <a href="https://fin-smarts.vercel.app">fin-smarts.vercel.app</a></div>
+  <ul>
+    <li>Built an AI financial assistant that analyses spending and gives personalised advice via the Gemini API, with a CRUD dashboard, Chart.js visualisations and real-time Firebase sync</li>
+  </ul>
+</div>
+
+<h2>Technical Skills</h2>
+<div class="skills">
+  <p><b>Languages:</b> PHP, JavaScript (ES6+), TypeScript, Python</p>
+  <p><b>Backend:</b> Laravel, Node.js, Express.js, Django, RESTful API design, background jobs &amp; webhooks</p>
+  <p><b>Frontend &amp; Mobile:</b> React.js, Next.js (App Router, RSC), React Native, Tailwind CSS, Radix UI, Bootstrap</p>
+  <p><b>Databases:</b> MySQL, PostgreSQL, MongoDB, Drizzle ORM</p>
+  <p><b>Payments &amp; Integrations:</b> Stripe (Connect, Subscriptions, Payouts), IAP (iOS/Android), Plaid, Basiq.io, Xero, Zapier, Khalti, eSewa, Razorpay</p>
+  <p><b>Cloud &amp; DevOps:</b> AWS (EC2, S3), Firebase, Google Cloud, Vercel, Cloudflare, GitHub Actions CI/CD, Turborepo</p>
+  <p><b>Real-Time &amp; Comms:</b> Firebase Chat &amp; FCM, Agora (Video/Voice), ClickSend, Twilio</p>
+  <p><b>Testing &amp; AI:</b> Vitest, Playwright, OpenAI API, Gemini API, Python (Pandas, NumPy, NLP)</p>
+  <p><b>Tools:</b> Git (GitHub/GitLab), Postman, TablePlus, DBeaver, Herd, Play Console, ClickUp, Slack</p>
+</div>
+
+<h2>Education</h2>
+<div class="row"><b>Bachelor in Information Technology</b><span class="muted">2022 – 2025</span></div>
+<p class="sub">Phoenix College of Management, Maitidevi, Kathmandu (affiliated with Lincoln University)</p>
+
+<h2>Certifications &amp; Training</h2>
+<ul>
+  <li><b>Meta Front-End Developer Certificate</b>, Coursera, 2024</li>
+  <li><b>Data Science with Python &amp; NLP</b>, CampusX, 2022 (120+ hours: Pandas, NumPy, ML, NLP, Sentiment Analysis)</li>
+</ul>
+
+</body>
+</html>
