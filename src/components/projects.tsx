@@ -30,10 +30,10 @@ export const Projects = ({ starsCount }: TProps) => {
       >
         <SectionHeading
           heading="Personal Projects"
-          content="Side projects I've designed and built end-to-end on my own."
+          content="Products and side projects I've designed and built on my own."
         />
       </motion.div>
-      <div className="flex flex-col gap-8 md:flex-row">
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
         {projectsData.map((project, index) => (
           <Project
             key={project.title}

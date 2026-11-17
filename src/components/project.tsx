@@ -39,7 +39,7 @@ export const Project = ({ project, index, starsCount }: TProps) => {
         once: true,
       }}
       custom={index}
-      className="bg-secondary flex flex-col items-center rounded p-5 text-center md:w-1/3"
+      className="bg-secondary flex flex-col items-center rounded p-5 text-center"
     >
       <div className="bg-muted w-fit rounded-full p-4">
         <Image src={image} alt={`${title} image`} width={32} height={32} />
@@ -53,7 +53,7 @@ export const Project = ({ project, index, starsCount }: TProps) => {
           </span>
         ))}
       </div>
-      <div className="mt-2 flex">
+      <div className="mt-auto flex pt-2">
         {(links.preview as string) !== '#' && (
           <Button variant="outline" asChild className="mr-2 px-5">
             <a
@@ -67,11 +67,19 @@ export const Project = ({ project, index, starsCount }: TProps) => {
             </a>
           </Button>
         )}
-        <Button variant="outline" asChild className="mr-2 px-5">
-          <a href={links.github} aria-label="github">
-            <Icons.githubOutline className="size-5" />
-          </a>
-        </Button>
+        {(links.github as string) !== '#' ? (
+          <Button variant="outline" asChild className="mr-2 px-5">
+            <a href={links.github} aria-label="github">
+              <Icons.githubOutline className="size-5" />
+            </a>
+          </Button>
+        ) : (
+          <Button variant="outline" asChild className="mr-2 px-5">
+            <a href="#contact" aria-label={`request a ${title} demo`}>
+              Private repo · Demo on request
+            </a>
+          </Button>
+        )}
         {starsCount[index] > 100 && (
           <Button asChild className="px-5">
             <a href={links.github} aria-label="github">

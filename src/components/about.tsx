@@ -36,9 +36,10 @@ export const About = () => {
           developer can pick up.
         </p>
         <p className="mb-4">
-          Outside my day job at Uno Technology, I built FlowPilot, a
-          multi-tenant automation SaaS with a visual flow builder, a background
-          task engine and 30+ integrations.
+          Outside my day job at Uno Technology, I build my own products:
+          FlowPilot, a multi-tenant automation SaaS with a visual flow builder,
+          a background task engine and 30+ integrations, and Urja, an EV
+          charging and booking platform for Nepal.
         </p>
         <p>
           I&apos;m available for remote contract and freelance work. If you need

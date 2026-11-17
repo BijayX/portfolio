@@ -65,6 +65,27 @@ export const featuredProject = {
 
 export const projectsData = [
   {
+    image: '/projects/urja.svg',
+    title: 'Urja — EV Charging & Booking for Nepal',
+    description:
+      'An EV charging platform where drivers find chargers and book slots. I built the REST API and a full admin dashboard for stations, chargers, bookings, NPR pricing and staff roles with enforced 2FA. In development.',
+    technologies: [
+      'Next.js 16',
+      'TypeScript',
+      'Node.js',
+      'Express',
+      'Prisma',
+      'PostgreSQL',
+      'shadcn/ui',
+    ],
+    links: {
+      // Private repo, not launched yet
+      preview: '#',
+      github: '#',
+      githubApi: 'https://api.github.com/repos/BijayX/urja',
+    },
+  },
+  {
     image: '/projects/chart-donut.svg',
     title: 'FinSmarts — AI Personal Finance Advisor',
     description:
