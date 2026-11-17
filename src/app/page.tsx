@@ -1,6 +1,7 @@
 import { About } from '@/components/about';
 import { Contact } from '@/components/contact';
 import { Experience } from '@/components/experience';
+import { FeaturedProject } from '@/components/featured-project';
 import { Footer } from '@/components/footer';
 import { Header } from '@/components/header';
 import { Intro } from '@/components/intro';
@@ -34,6 +35,7 @@ const Home = async () => {
         <SectionDivider />
         <About />
         <Services />
+        <FeaturedProject />
         <ProProjects />
         <Projects starsCount={starsCount} />
         <Experience />

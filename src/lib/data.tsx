@@ -32,6 +32,36 @@ export const links = [
   },
 ] as const;
 
+export const featuredProject = {
+  title: 'FlowPilot',
+  tagline: 'Business automation platform for small businesses',
+  image: '/projects/flowpilot.png',
+  description:
+    'An automation platform that welcomes new leads, chases unpaid invoices and keeps orders organised by connecting the apps a business already uses, with no technical skills needed. Owners pick a goal in plain English and FlowPilot builds the automation.',
+  highlights: [
+    'Visual flow builder with filters, branches, delays and approvals',
+    '30+ integrations: Xero, Stripe, Shopify, HubSpot, Slack and more',
+    'Background task engine with webhooks, scheduling and automatic retries',
+    'Multi-tenant workspaces, roles, magic-link auth and an admin portal',
+    'Encrypted credentials, daily limits and quiet hours built in',
+    'Tested with Vitest and Playwright, with CI on GitHub Actions',
+  ],
+  technologies: [
+    'Next.js 16',
+    'React 19',
+    'TypeScript',
+    'Tailwind CSS 4',
+    'PostgreSQL',
+    'Drizzle ORM',
+    'Better Auth',
+    'Turborepo',
+    'Playwright',
+  ],
+  links: {
+    github: 'https://github.com/BijayX/workflow',
+  },
+} as const;
+
 export const projectsData = [
   {
     image: '/projects/chart-donut.svg',
