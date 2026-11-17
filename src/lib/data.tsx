@@ -58,7 +58,8 @@ export const featuredProject = {
     'Playwright',
   ],
   links: {
-    github: 'https://github.com/BijayX/workflow',
+    // Repo is private; send visitors to the contact form instead
+    contact: '#contact',
   },
 } as const;
 

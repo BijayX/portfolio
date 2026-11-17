@@ -63,17 +63,21 @@ export const FeaturedProject = () => {
               </span>
             ))}
           </div>
-          <Button variant="outline" asChild className="px-5">
-            <a
-              href={links.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`${title} source code on GitHub`}
-            >
-              <Icons.githubOutline className="mr-2 size-5" />
-              View source &amp; screenshots
-            </a>
-          </Button>
+          <div className="flex flex-wrap items-center gap-3">
+            <Button variant="outline" asChild className="px-5">
+              <a
+                href={links.contact}
+                aria-label={`request a ${title} walkthrough`}
+              >
+                Request a walkthrough
+                <Icons.arrowRight className="ml-2 size-4" />
+              </a>
+            </Button>
+            <span className="text-muted-foreground text-sm">
+              Private repository. Code samples and a live demo are available on
+              request.
+            </span>
+          </div>
         </div>
       </motion.div>
     </section>
