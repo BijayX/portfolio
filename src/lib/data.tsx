@@ -238,7 +238,7 @@ export const experiencesData = [
     date: '2023',
   },
   {
-    title: 'Full-Stack Web Developer — Uno Technology',
+    title: 'Full Stack Developer — Uno Technology',
     location: 'Kathmandu, Nepal · Clients in Australia & Nepal',
     description:
       'Own end-to-end delivery of web and mobile platforms (Laravel/Node back ends, React/Next.js front ends) for apps with thousands of active users. Integrated 10+ payment systems including Stripe Connect, In-App Purchases, Plaid and Basiq; built real-time chat, push notifications and video calling; led refactoring and shipped 20+ app releases; deployed and maintained production apps on AWS.',
