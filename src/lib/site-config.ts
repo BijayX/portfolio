@@ -1,11 +1,24 @@
 import { env } from '@/env.mjs';
 
 export const siteConfig = {
+  name: 'Bijay Kumar Shrestha',
+  alternateNames: ['Bijay Shrestha', 'Bijay K. Shrestha'],
+  jobTitle: 'Full-Stack Developer (Laravel & React)',
+  location: { city: 'Kathmandu', country: 'NP' },
+  ogImage: '/og.png',
+  links: {
+    linkedin: 'https://www.linkedin.com/in/bijay-shrestha-b26477245',
+    github: 'https://github.com/BijayX',
+    npm: 'https://www.npmjs.com/~bijayx',
+    packagist: 'https://packagist.org/packages/bijayx/',
+  },
   title: 'Bijay Kumar Shrestha | Laravel & React Developer',
   description:
     'Freelance Laravel & React developer in Kathmandu, Nepal. I build web apps, mobile app backends, subscriptions and payment integrations, and have shipped production apps for Australian clients.',
   keywords: [
     'Bijay Kumar Shrestha',
+    'Bijay Shrestha',
+    'Bijay Shrestha developer',
     'Full stack developer',
     'Software developer Nepal',
     'Kathmandu',

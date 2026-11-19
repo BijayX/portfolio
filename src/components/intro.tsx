@@ -37,6 +37,9 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         className="text-3xl font-bold leading-tight tracking-tighter sm:text-4xl"
       >
+        <span className="text-muted-foreground mb-2 block text-base font-medium tracking-normal sm:text-lg">
+          Bijay Kumar Shrestha
+        </span>
         Laravel &amp; React developer building web apps and mobile backends for
         growing businesses.
       </motion.h1>
